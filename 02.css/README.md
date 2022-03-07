@@ -314,7 +314,7 @@ footer .footer-inner {
 }
 ```
 
-1. Page responsiveness for all screens
+4. Page responsiveness for all screens
 
 ```css
 /* desktops */
