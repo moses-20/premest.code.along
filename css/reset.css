@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn-apply-dark,
+.btn-apply-light {
+  padding: 0.75rem;
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 20rem;
+}
+
+.title-dark,
+.title-light {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.btn-apply-dark {
+  border: 2px solid #1f333b;
+  color: #1f333b;
+}
+
+.btn-apply-light {
+  border: 2px solid #effaff;
+  color: #effaff;
+}
+
+.py-1 {
+  padding: 1rem 0rem;
+}
+
+.py-2 {
+  padding: 2rem 0rem;
+}
+
+.py-3 {
+  padding: 3rem 0rem;
+}
+
+.my-1 {
+  margin: 1rem 0rem;
+}
+
+.my-2 {
+  margin: 2rem 0rem;
+}
+
+.my-3 {
+  margin: 3rem 0rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title-dark {
+  border-bottom: 3px solid #24527e;
+}
+
+.title-light {
+  border-bottom: 3px solid #effaff;
+}
+
+.lead {
+  font-size: 1.1rem;
+}
+
+#hr {
+  background: #f3eff5;
+  color: #1f333b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
