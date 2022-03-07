@@ -13,7 +13,7 @@ By following the instructions contained here, you will build a simple JavaScript
 3. Get the starter code from your mentor. Alternatively, if you're familiar with `git`, then clone the boilerplate using the command below
 
 ```bash
-git clone -b todoapp --single-branch https://github.com/moses-20/premest.code.along.git
+git clone -b todoapp --single-branch https://github.com/moses-20/premest.code.along.git todoapp
 ```
 
 ## Objectives

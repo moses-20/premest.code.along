@@ -12,7 +12,11 @@ By following instructions contained here, you will build the HTML structure of t
 
 1. Ensure you have Visual Studio Code with Live Server extension installed.
 
-2. Your instructor will share the starter template with you
+2. Your instructor will share the starter template with you or you can alternatively clone the it using the following command
+
+```bash
+git clone -b approval --single-branch https://github.com/moses-20/premest.code.along.git approval
+```
 
 ## Objectives
 
