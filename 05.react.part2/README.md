@@ -103,7 +103,7 @@ By following this guide, you will build a simple React App with data fetching an
 
 3. Copy the images folder of this directory and paste it in the public folder of your project
 
-4. In update `index.css` with the following
+4. In `index.css` update with the following
 
    ```css
    * {
@@ -198,8 +198,11 @@ By following this guide, you will build a simple React App with data fetching an
    class App extends Component {
      constructor() {
        super();
+
+       // this makes it possible to use `handleClick` as a class method (function)
        this.handleClick = this.handleClick.bind(this);
 
+       // how to set state in a class component
        this.state = {
          writers: {
            loading: false,
@@ -208,14 +211,21 @@ By following this guide, you will build a simple React App with data fetching an
        };
      }
 
+     // this method (function) is responsible for fetching and updating the  `writers` data in state
      handleClick() {
+       // temporarily sets the value of loading to `true`
+       // we use setState to update values of state in  class components
+       // later you'll learn how to do it in functional components
        this.setState({
          writers: {
            loading: true
          }
        });
 
+       // setTimeout is a built-in JavaScript function that waits for some seconds before calling a function
+       // in this case, we are waiting for 3.5s
        setTimeout(async () => {
+         // fetch is a JavaScript API for getting information over the internet
          let resp = await fetch("/writers.json");
          let result = await resp.json();
 
@@ -229,6 +239,7 @@ By following this guide, you will build a simple React App with data fetching an
      }
 
      render() {
+       // we use a JavaScript feature called `destructuring` to get values from the state
        const {
          writers: { loading, list }
        } = this.state;
@@ -250,6 +261,8 @@ By following this guide, you will build a simple React App with data fetching an
          <div>
            <h1> Writer Profiles </h1>
            <div className="container">
+
+              <!-- we use JavaScript ternary operator to conditionally render elements depending if the list is empty or not -->
              {list.length === 0 ? (
                <div className="card action">
                  <p className="infoText"> Oops... no writer profile found</p>
