@@ -1,4 +1,4 @@
-# PreMEST Code Along React (Components)
+# PreMEST Code Along React (State and Props)
 
 ## Introduction
 
