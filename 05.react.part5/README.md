@@ -114,10 +114,10 @@ By following this guide, you will be able to use forms in a React Application
    function App() {
      const [allProfiles, setAllProfiles] = useState([
        {
-         firstName: "Moses",
-         lastName: "Gameli",
-         email: "mosesgameli20@gmail.com",
-         phone: "0240695050"
+         firstName: "Gbemu",
+         lastName: "Terra",
+         email: "gbemu@google.com",
+         phone: "0240123456"
        }
      ]);
 
