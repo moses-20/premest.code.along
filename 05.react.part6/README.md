@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1> Profile Maker </h1>
+      <h1> Daily Posts </h1>
       <div>
         <div className="list">
           {posts.map((post) => (
