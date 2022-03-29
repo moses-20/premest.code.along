@@ -1,0 +1,45 @@
+@import url(reset.css);
+
+.layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-component {
+  flex: 1;
+  max-width: 700px;
+  margin: auto;
+}
+
+footer {
+  background-color: crimson;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.appbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: crimson;
+}
+
+.appbar > span {
+  font-size: 25px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.nav-link > a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link > a:hover {
+  text-decoration: underline;
+}
