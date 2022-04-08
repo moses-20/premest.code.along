@@ -189,4 +189,18 @@ By following this guide, you will be able to compose a basic ExpressJS Route
    module.exports = router;
    ```
 
-7. Congrats, you are able to mimick a database by using nodejs to read and write to file 🔥🔥
+In ther the terminal, run your app `npm start`
+
+## Activity
+
+1. Using Postman, make a get request to `http://localhost:4000`
+2. Make a get request to `http://localhost:4000/abc`
+3. Make a get request to `http://localhost:4000/users`
+4. Make a get request to `http://localhost:4000/users/2`
+5. Make a post request to `http://localhost:4000/users` with the following data
+
+   ```js
+   { id: 3, name: 'Kris Santos' }
+   ```
+
+6. Congrats, you are able to mimick a database by using nodejs to read and write to file 🔥🔥
